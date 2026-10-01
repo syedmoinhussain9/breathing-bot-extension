@@ -3,11 +3,13 @@
   "name": "MuTimer",
   "version": "1.0.0",
   "description": "Developer-first productivity and wellness companion",
-  "action": {
-    "default_popup": "index.html"
+  "action": {},
+  "side_panel": {
+    "default_path": "index.html"
   },
   "permissions": [
     "storage",
-    "activeTab"
+    "activeTab",
+    "sidePanel"
   ]
 }
