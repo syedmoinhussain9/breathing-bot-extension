@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MuTimer",
+  "version": "1.0.0",
+  "description": "Developer-first productivity and wellness companion",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ]
+}
